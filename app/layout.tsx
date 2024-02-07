@@ -17,7 +17,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body className={inter.className}>
         <VerAppBar />
-        {children}
+        <div className="min-h-screen min-w-screen bg-gray-200 p-8">
+          <div className="container mx-auto bg-white p-4 rounded-lg">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );

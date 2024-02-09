@@ -1,4 +1,3 @@
-import type { AppProps } from 'next/app'
 import {Inter} from "next/font/google";
 import type {Metadata} from "next";
 import React from "react";

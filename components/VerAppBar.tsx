@@ -4,7 +4,7 @@ import HomeIcon from '@mui/icons-material/Home';
 
 function VerAppBar() {
 
-  const pages = ['MaterialUI', 'TamagUI', 'Ant Design'];
+  const pages = ['MaterialUI', 'Work In Progress..'];
 
   return (
     <AppBar position="static">
